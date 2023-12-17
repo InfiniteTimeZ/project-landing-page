@@ -1,8 +1,12 @@
+html{
+    height: 100%;
+}
 body{
     background-color: darkslategrey;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height: 100%;
 
 }
 .header{
@@ -24,6 +28,11 @@ li{
     list-style: none;
     font-size: 16px;
     color: white;
+    flex-direction: column;
+    text-align: center;
+    font-size: 14px;
+    
+    
 }
 #logoa{
     display: flex;
@@ -116,19 +125,33 @@ a:hover{
  }
 .anime{
     display: flex;
+    background-size: cover;
     max-width: 200px;
     max-height: 400px;
     margin: 16px;
-    border: 1px solid black
-    margin: 16px 0;
+    border: 1px solid black;
+ }
+ img.anime{
+    min-height: 302px;
  }
  .anime:hover{
     border: 5px solid rgba(0, 0, 0, 0.2);
     border-radius: 7px;
  }
-.footer{
+ .foot{
     display: flex;
     justify-content: center;
-     align-items: flex-end;
-    
+    align-items: flex-end;
+    margin-top: auto;
+    padding: 10px;
+    background-color: rgba(105, 105, 105, 0.2);
+
  }
+.tt{
+    margin: auto;
+    padding: 5px;
+    border-radius: 7px;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    p
+}
