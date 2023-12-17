@@ -1,6 +1,8 @@
 body{
     background-color: darkslategrey;
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
 }
 .header{
@@ -107,3 +109,26 @@ a:hover{
 #waifu{
     max-width: 50px;
 }
+.bod{
+    display: flex;
+    justify-content: center;
+
+ }
+.anime{
+    display: flex;
+    max-width: 200px;
+    max-height: 400px;
+    margin: 16px;
+    border: 1px solid black
+    margin: 16px 0;
+ }
+ .anime:hover{
+    border: 5px solid rgba(0, 0, 0, 0.2);
+    border-radius: 7px;
+ }
+.footer{
+    display: flex;
+    justify-content: center;
+     align-items: flex-end;
+    
+ }
