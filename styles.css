@@ -1,3 +1,93 @@
 body{
+    background-color: darkslategrey;
     display: flex;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    padding:0 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 7px;
+    margin: 0 auto;
+
+}  
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+li{
+    display: flex;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+}
+#logoa{
+    display: flex;
+    align-items: center;
+    max-width: 200px;
+    padding: 10px;
+    padding-bottom: 12px;
+ 
+}
+.select{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    justify-content: space-between;
+    margin-left: 70px;
+}
+ .log-serc{
+    display: flex;
+    margin-left: 200px;
+    gap:30px;
+    align-items: center;
+ }
+
+ #search{
+    max-width: 20px;
+    max-height: 50px;
+    display: flex;
+    filter: invert(100%);
+ }
+ button{
+    border: 0;
+
+ }
+ .login{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: lightsalmon;
+    border: 0;
+    border-radius: 7px;
+    min-width: 100px;
+    font-size: 20px;
+    justify-content: center;
+ }
+ .login:hover{
+    background-color: rgb(194, 110, 77);
+ }
+ .login:active{
+    transform:translateY(4px);
+    border: 1px solid;
+    border-color: lightcoral;
+ }
+.text{
+    display: flex;
+    align-items: center;
+
+}
+.txtsrch{
+    margin-right: 10px;
+    min-width: 150px;
+    max-width: 150px;
+    max-height: 20px;
+    border:0;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    resize: none;
+    
+
 }
