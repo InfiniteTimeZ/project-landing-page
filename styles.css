@@ -1,13 +1,21 @@
 html{
     height: 100%;
+    background: url(./imgs/722747.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 body{
-    background-color: darkslategrey;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     height: 100%;
     margin: 0;
+    background-size: auto;
+    
+
+
 
 }
 .header{
@@ -23,6 +31,9 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    overflow-y: hidden;
+    
+
 }
 li{
     display: flex;
@@ -122,6 +133,9 @@ a:hover{
 .bod{
     display: flex;
     justify-content: center;
+    overflow-y: hidden;
+    flex-wrap: wrap;
+    flex-direction: column;
 
  }
 .anime{
@@ -131,6 +145,7 @@ a:hover{
     max-height: 400px;
     margin: 16px;
     border: 1px solid black;
+    
  }
  img.anime{
     min-height: 302px;
@@ -145,7 +160,8 @@ a:hover{
     align-items: flex-end;
     margin-top: auto;
     padding: 10px;
-    background-color: rgba(105, 105, 105, 0.2);
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
 
  }
 .tt{
@@ -159,6 +175,7 @@ a:hover{
     display: flex;
     background-color: rgba(0, 0, 0, 0.7);
     margin-top: 16px;
+    flex-shrink: 0;
 
 }
 #movie{
@@ -167,3 +184,8 @@ a:hover{
     padding-left: 16px;
     font-size: 36px;
 }
+ .bod::-webkit-scrollbar,
+ .container::-webkit-scrollbar{
+    color: black;
+
+ }
