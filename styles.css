@@ -172,6 +172,9 @@ a:hover{
     padding: 5px;
     border-radius: 7px;
     background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+
 
 }
 .movie{
