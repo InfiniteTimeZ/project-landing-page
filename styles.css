@@ -92,7 +92,7 @@ li{
     border-radius: 7px;
     min-width: 100px;
     font-size: 20px;
-    justify-content: flex-end;
+    justify-content: center;
  }
  .login:hover{
     background-color: rgb(194, 110, 77);
@@ -205,4 +205,7 @@ a:hover{
  ::-webkit-scrollbar-thumb:horizontal{
     background-color: rgba(47, 79, 79,0.75);
     border-radius: 7px;
+ }
+ form{
+    display: flex;
  }
