@@ -32,6 +32,7 @@ body{
     align-items: center;
     justify-content: center;
     overflow-y: hidden;
+    flex: auto;
     
 
 }
@@ -43,9 +44,11 @@ li{
     flex-direction: column;
     text-align: center;
     font-size: 14px;
-    
-    
 }
+li.container{
+    margin: auto;
+}
+
 #logimg{
     display: flex;
     flex-shrink: 0;
