@@ -30,7 +30,7 @@ body{
 .container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     overflow-y: hidden;
     
 
@@ -45,6 +45,10 @@ li{
     font-size: 14px;
     
     
+}
+#logimg{
+    display: flex;
+    flex-shrink: 0;
 }
 #logoa{
     display: flex;
@@ -88,7 +92,7 @@ li{
     border-radius: 7px;
     min-width: 100px;
     font-size: 20px;
-    justify-content: center;
+    justify-content: flex-end;
  }
  .login:hover{
     background-color: rgb(194, 110, 77);
@@ -174,6 +178,7 @@ a:hover{
     background-color: rgba(0, 0, 0, 0.5);
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 
 
 }
@@ -192,6 +197,12 @@ a:hover{
 }
  .bod::-webkit-scrollbar,
  .container::-webkit-scrollbar{
-    color: black;
-
+ background-color: rgba(0, 0, 0, 0.5);
+ border-radius: 7px;
+ margin:16px;
+ 
+ }
+ ::-webkit-scrollbar-thumb:horizontal{
+    background-color: rgba(47, 79, 79,0.75);
+    border-radius: 7px;
  }
