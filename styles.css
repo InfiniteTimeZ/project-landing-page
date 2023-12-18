@@ -136,6 +136,8 @@ a:hover{
     overflow-y: hidden;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+
 
  }
 .anime{
@@ -145,6 +147,7 @@ a:hover{
     max-height: 400px;
     margin: 16px;
     border: 1px solid black;
+    justify-content: center;
     
  }
  img.anime{
